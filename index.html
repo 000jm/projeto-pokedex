@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="pikachu.png">
     <!-- roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>pokedex</title>
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/pokedex.css">
     <link rel="stylesheet" href="assets/css/global.css">
     
+
     <!-- normalize css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" 
@@ -20,25 +22,9 @@
 </head>
 <body>
     
-    
-    <main class="content">
-        <h1>Pokedex</h1>
+    <div id="root"></div>
 
-        <ol id="pokemonList" class="pokemons">
-            
-        </ol>
-
-        <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
-        </div>
-    </main>
-
-    <!-- nosso js -->
-     <script src="assets/js/pokemon-model.js"></script>
-    <script src="assets/js/poke-api.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script type="module" src="./main.jsx"></script>
 
 </body>
 </html>

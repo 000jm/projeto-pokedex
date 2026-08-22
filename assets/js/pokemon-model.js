@@ -1,5 +1,5 @@
 
-class Pokemon {
+export default class Pokemon {
 
     number;
     name;
