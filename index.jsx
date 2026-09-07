@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import pokeApi from './assets/js/poke-api'
 
-function Rodar() {
+function App() {
 
     const [pokemons, setPokemons] = useState([])
     const [offset, setOffset] = useState(0)
@@ -116,4 +116,4 @@ function Rodar() {
     )
 }
 
-export default Rodar
+export default App
